@@ -12,7 +12,7 @@ class AutorView(viewsets.ModelViewSet):
 
 class BookView(viewsets.ModelViewSet):
     queryset = BookModel.objects.all()
-    serializer_class = BookSerializar
+    serializer_class = BookSerializer
 
 
 class CategoriesView(viewsets.ModelViewSet):
